@@ -1,0 +1,4 @@
+在Go中，每一个并发的执行单元叫做一个goroutine。当一个程序启动时，只有一个goroutine
+来调用main函数，称它为主goroutine（main goroutine）。新的goroutine通过go语句创建。
+语法上，一个go语句是在普通函数或者方法调用前加上关键字前缀：go。go语句使函数或方法
+在一个新建的goroutine中被调用，go语句本身的执行立即完成（go语句立即执行并返回）。
